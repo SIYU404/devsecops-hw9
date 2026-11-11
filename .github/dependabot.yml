@@ -1,0 +1,13 @@
+version: 2
+updates:
+  # 定期檢查並更新 Python 套件
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # 定期檢查並更新 GitHub Actions 工作流程
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

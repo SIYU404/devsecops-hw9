@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 100
+# S404: 引用 subprocess 模組
+# S603: subprocess 呼叫（此專案已改用安全 List 參數，且無不可信任輸入，因此設定為已審核忽略）
+extend-ignore = S404, S603

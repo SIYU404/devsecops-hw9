@@ -5,7 +5,10 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-
+  - package-ecosystem: "npm"
+      directory: "/"
+      schedule:
+        interval: "weekly"
   # 定期檢查並更新 GitHub Actions 工作流程
   - package-ecosystem: "github-actions"
     directory: "/"
